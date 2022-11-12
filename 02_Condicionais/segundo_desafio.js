@@ -18,11 +18,17 @@ const mediaKmLitro = 10;
 const distancia = 100;
 
 if (typeCombustivel === 'etanol') {
+
     const gasto = (distancia / mediaKmLitro) * precoEtanol;
     console.log(gasto.toFixed(2));
+
 } else if (typeCombustivel === 'gasolina') {
+
     const gasto = (distancia / mediaKmLitro) * precoGasolina;
     console.log(gasto.toFixed(2));
+
 } else {
+
     console.log('Opção Inválida');
+
 }
