@@ -14,8 +14,8 @@ IMC em adultos Condição:
  - Acima de 40 Obesidade Grave;
 */
 
-const peso = 80;
-const altura = 1.71;
+const peso = 70;
+const altura = 1.70;
 
 const imc = peso / (altura * altura);
 

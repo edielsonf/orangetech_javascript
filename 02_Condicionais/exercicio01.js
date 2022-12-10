@@ -9,9 +9,9 @@ Classificação
     - Média acima de 7, passou de semestre;
 */
 
-const nota1 = 10;
-const nota2 = 5;
-const nota3 = 10;
+const nota1 = 9;
+const nota2 = 7;
+const nota3 = 9;
 
 const media = (nota1 + nota2 + nota3) / 3;
 
